@@ -15,7 +15,7 @@ function App() {
     }
 
     const loggedIn = (token) => {
-        //console.log('token -> ', token);
+        console.log('token -> ', token);
         if (token) {
             localStorage.setItem(TOKEN_KEY, token);
             setIsLoggedIn(true);
